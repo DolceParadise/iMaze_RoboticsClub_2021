@@ -1,0 +1,288 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation 1 0 0 4.71238898038469
+  position 0.0003051560168744777 5.412011091584919 3.5012621871085405e-06
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+}
+Solid {
+}
+SolidBox {
+  translation 0.715865 0.1 0.772551
+  name "box(12)"
+  size 0.4 0.2 0.4
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "roboclub.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.716819 0.1 -0.742711
+  name "box(13)"
+  size 0.4 0.2 0.4
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "logo2.jpg"
+      ]
+    }
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.644552 0.05 0.0925479
+  rotation 0 1 0 1.309
+  name "box(3)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    roughness 0.5
+    metalness 0
+  }
+}
+E-puck {
+  hidden position_0_0 -3.099654814399636e-08
+  hidden position_0_1 3.0222446844080436e-08
+  hidden rotation_1 1 0 0 2.9802322387695313e-08
+  hidden rotation_2 -1 0 0 2.9802322387695313e-08
+  translation -0.14738210418292247 -6.396823275035997e-05 0.8539530027748478
+  rotation 2.2623117818354017e-06 0.9999999999930683 2.9572499212623633e-06 2.355428746441416
+  controller "void"
+  camera_fieldOfView 1
+  camera_width 512
+  camera_height 512
+}
+SolidBox {
+  translation 0.0333107 0.05 -0.00408576
+  rotation 0 1 0 0.785403
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.426797 0.05 -0.766355
+  rotation 0 1 0 0.785403
+  name "box(14)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 1 0 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.322164 0.05 0.826512
+  rotation 0 -1 0 -1.0472053071795866
+  name "box(1)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0 1 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.362445 0.05 -0.313808
+  rotation 0 1 0 -1.8325853071795866
+  name "box(15)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0 1 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.329598 0.05 0.0569197
+  rotation 0 -1 0 -1.0472053071795866
+  name "box(11)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0 1 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.71723 0.05 -0.257875
+  name "box(6)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0 1 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.742808 0.05 -0.820406
+  name "box(9)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0 1 0
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.00493995 0.05 0.287716
+  rotation 0 1 0 0.785398
+  name "box(2)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0.6 0 0.6
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.113689 0.05 -0.289301
+  rotation 0 1 0 1.309
+  name "box(7)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0.6 0 0.6
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.363366 0.05 -0.688442
+  rotation 0 1 0 1.309
+  name "box(10)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0.6 0 0.6
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.0231655 0.05 -0.601647
+  rotation 0 1 0 -0.261795307179586
+  name "box(4)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0 0 1
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.397152 0.05 -0.40276
+  rotation 0 -1 0 0.261795
+  name "box(5)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0 0 1
+    roughness 0.5
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.162857 0.05 0.624568
+  rotation 0 1 0 0.523603
+  name "box(8)"
+  size 0.1 0.1 0.1
+  appearance PBRAppearance {
+    baseColor 0 0 1
+    roughness 0.5
+    metalness 0
+  }
+}
+Solid {
+  children [
+    MazeBlock {
+      translation -0.40989499995769246 -2.386915570164877e-05 0.6364019999993518
+      rotation -2.8318546078629855e-13 1 3.0588862594485547e-13 1.5708000102578896
+      name "maze block(3)"
+      length 0.3
+    }
+    MazeBlock {
+      translation -0.762080131881133 -4.0723939116700525e-05 0.5637727481289141
+      rotation 1.5933318979852387e-05 0.9999999998724188 1.1365353744397861e-06 1.5707998488215849
+      length 0.5
+    }
+    MazeBlock {
+      translation 0.6333172375233687 -9.030992906347568e-07 0.2044762787781433
+      rotation 1.161449564391437e-09 1 8.740606529869349e-13 -3.1415833148391887
+      name "maze block(9)"
+      length 0.3
+    }
+    MazeBlock {
+      translation 0.6268125575150548 -9.031058800512692e-07 0.0185405898504239
+      rotation 1.0588572273301371e-09 1 -4.980973856423573e-13 3.1415368413009923
+      name "maze block(10)"
+      length 0.3
+    }
+    MazeBlock {
+      translation -0.6221482235390943 -9.084681056176214e-07 0.6381910102380887
+      rotation 6.715005703525182e-10 1 7.225123103491437e-10 1.5708310479400267
+      name "maze block(5)"
+      length 0.3
+    }
+    MazeBlock {
+      translation -0.5200837764265649 -6.218918945366525e-07 0.4948279897164928
+      rotation -5.028026145482985e-10 1 1.7248751279432712e-12 -3.141585214346128
+      name "maze block(4)"
+      length 0.2
+    }
+    MazeBlock {
+      translation 0.283107561766569 -1.530360000077946e-06 0.12478796936855263
+      rotation -3.919953237851938e-14 1 3.9215056646677016e-14 1.570717313609879
+      name "maze block(1)"
+      length 0.5
+    }
+    MazeBlock {
+      translation 0.4866012048173525 -6.42370829542771e-07 0.11476253137803957
+      rotation -1.0721722234521958e-10 -1 1.0375841144727378e-10 1.5708299793233156
+      name "maze block(11)"
+      length 0.2
+    }
+    MazeBlock {
+      translation -0.26426852364881853 -1.510611023138042e-06 0.546665909506017
+      rotation 2.4368966197219953e-09 1 2.303018629825358e-09 1.5707945968897905
+      name "maze block(8)"
+      length 0.5
+    }
+    MazeBlock {
+      translation 0.5404404559384199 -1.530360000008557e-06 -0.1213960017253185
+      rotation -5.919075088688331e-18 1 2.600842594649771e-18 -3.141585293978423
+      name "maze block(2)"
+      length 0.5
+    }
+    MazeBlock {
+      translation 0.5318139822950135 -1.5303599999044737e-06 0.3655630323567659
+      rotation 4.403100135026109e-16 1 4.1299711449175715e-18 -3.1415852986393396
+      name "maze block(6)"
+      length 0.5
+    }
+    MazeBlock {
+      translation -0.5212063605957653 -1.6864871001873172e-06 0.3063038024314793
+      rotation -1.3959637219874166e-08 0.9999999999999999 8.842688349739215e-10 -3.1415856465741046
+      name "maze block(7)"
+      length 0.5
+    }
+  ]
+  name "solid(1)"
+  locked TRUE
+}
