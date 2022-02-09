@@ -47,3 +47,7 @@ To help you accomplish this task,
 you are given distance measuring
 sensors which can be used to make
 your bot move.
+### Made by 
+|<img src="https://avatars.githubusercontent.com/u/77807055?v=4" alt="drawing" width="150"/> | <img src="https://avatars.githubusercontent.com/u/78961267?v=4" alt="drawing" width="150"/> |<img src="https://avatars.githubusercontent.com/u/74451989?v=4" alt="drawing" width="150"/> |
+|--|--|--|
+| [Somya Bansal](https://github.com/Somya-Bansal159)|[Parth Gupta](https://github.com/parthg48)|[Pratik Mishra](https://github.com/DolceParadise)|
